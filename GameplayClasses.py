@@ -133,8 +133,6 @@ class Game:
             v_chop_tree
         ])
 
-        # TODO: Type Question not shown in hint in game loop
-        # TODO: [abcTABxyz] xyz removes
         self._current_state = q_tree_appears
 
         q_tree_appears.__init__(question="Вы вышли из города и встретили дерево", variants=[
